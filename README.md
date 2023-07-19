@@ -17,7 +17,8 @@ Here are some of the key findings from the analysis:
 * These findings suggest that while many customers accept coupons, the acceptance rates vary for different coupon categories. 
 * It also highlights that the specific conditions used for grouping and analysis may need to be more applicable or restrictive for certain coupon types.
 
-Please refer to the Jupyter Notebook for a detailed analysis, visualizations, and further insights.
+Please refer to the Jupyter Notebook for a detailed analysis, visualizations, and further insights. 
+URL : https://github.com/guptapramods2006/Berkely-ML-AL
 
 Repository Structure
 The repository structure is as follows:
