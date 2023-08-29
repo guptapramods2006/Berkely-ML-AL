@@ -1,0 +1,59 @@
+# What Drives the Price of a Car?
+
+## Overview
+
+This repository contains an in-depth analysis of factors that influence the prices of used cars. The goal of this analysis is to provide valuable insights to used car dealers for optimizing their inventory management, pricing strategies, and customer engagement. By understanding the key drivers of used car prices, dealers can make informed decisions to meet customer preferences and improve profitability.
+
+The analysis follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework, encompassing various stages from data understanding to model evaluation.
+
+## Business Objective
+
+The primary objective of this analysis is to identify the factors that impact the pricing of used cars. By understanding these factors, used car dealers can make data-driven decisions to optimize their inventory selection, pricing strategies, and marketing efforts. This analysis aims to bridge the gap between raw data and strategic decision-making, helping dealers enhance their competitiveness in the market.
+
+## Contents
+
+1. **Data Understanding:**
+   - Overview of the dataset containing information on used cars.
+   - Exploration of key features such as year, manufacturer, model, condition, and more.
+
+2. **Data Preparation:**
+   - Handling missing values and data integrity issues.
+   - Feature engineering, including calculating the age of cars.
+   - Encoding categorical variables and scaling numerical features.
+
+3. **Modeling and Evaluation:**
+   - Building regression models to predict used car prices.
+   - Cross-validation and evaluation using mean squared error (MSE) metric.
+   - Exploring different regression algorithms and hyperparameters.
+
+4. **Key Findings and Insights:**
+   - Uncovering factors influencing used car prices, including car age, odometer reading, and manufacturer.
+   - Highlighting price differences based on transmission type and model.
+
+5. **Recommendations:**
+   - Providing actionable recommendations for used car dealers based on the analysis findings.
+   - Strategies for stocking inventory, pricing cars, and catering to customer preferences.
+
+6. **Conclusion:**
+   - Concluding the analysis with the importance of informed decision-making for used car dealers.
+   - Reiterating how the recommendations can be implemented to improve business outcomes.
+
+Please refer to the Jupyter Notebook for a detailed analysis, visualizations, and further insights. URL : https://github.com/guptapramods2006/Berkely-ML-AL
+
+## How to Use
+
+1. Clone the repository to your local machine.
+
+2. Install the required Python packages using `pip install -r requirements.txt`.
+
+3. Navigate through the Jupyter Notebook files to explore the different stages of the analysis:
+    Here is the file : prompt_II.ipynb
+ 
+4. Review the generated plots and visualizations to gain a deeper understanding of the analysis results.
+
+## Conclusion
+
+The "What Drives the Price of a Car?" analysis provides a comprehensive exploration of the factors influencing used car prices. By following the CRISP-DM framework, this analysis aims to empower used car dealers with data-driven insights and recommendations to make strategic decisions that lead to improved business outcomes. The actionable insights gained from this analysis can be utilized to enhance inventory management, pricing strategies, and overall customer satisfaction.
+
+For inquiries or further information, please feel free to reach out.
+
