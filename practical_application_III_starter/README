@@ -1,0 +1,46 @@
+README : Practical Application III: Comparing Classifiers
+
+
+Overview: In this practical application, the goal is to compare the performance of different classifiers, including K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines (SVM). These classifiers will be evaluated using a dataset related to marketing bank products over the telephone.
+
+Getting Started
+The dataset used in this project is obtained from the UCI Machine Learning Repository link. It consists of data collected by a Portuguese banking institution, primarily from multiple marketing campaigns. For more detailed information about the dataset and its features, you can refer to the accompanying article here.
+
+Problem 1: Understanding the Data
+To gain a better understanding of the data, please read the information provided in the UCI link mentioned above. One key aspect is to determine the number of marketing campaigns represented by this data.
+
+Problem 2: Read in the Data
+The dataset is read using the Python pandas library, and the data is loaded into a DataFrame for further analysis.
+
+Problem 3: Understanding the Features
+This section involves examining the data description and identifying any missing values or data types that need to be transformed.
+
+Problem 4: Understanding the Task
+Understanding the business objective is crucial. In this project, the goal is to build a predictive model that can assist the marketing department of the bank in maximizing the success of their future marketing campaigns.
+
+Problem 5: Engineering Features
+The features in the dataset are prepared for modeling by encoding categorical variables using one-hot encoding and selecting the target variable, which represents whether a client has subscribed to a term deposit.
+
+Problem 6: Train/Test Split
+The dataset is divided into training and test sets to facilitate model evaluation.
+
+Problem 7: A Baseline Model
+A baseline model is established to serve as a reference point for evaluating more complex models. In this case, a simple rule of predicting the majority class in the training data is used to calculate the baseline accuracy.
+
+Problem 8: A Simple Model
+A basic Logistic Regression model is built to predict whether a client subscribes to a term deposit. The model is trained and evaluated.
+
+Problem 9: Score the Model
+The accuracy of the Logistic Regression model is calculated to assess its performance.
+
+Problem 10: Model Comparisons
+The performance of the Logistic Regression model is compared to K Nearest Neighbor, Decision Tree, and Support Vector Machine (SVM) models. The default settings for each model are used, and training time is also compared.
+
+Problem 11: Improving the Model
+Strategies for improving the models are discussed, including feature engineering, hyperparameter tuning, and using different performance metrics.
+
+Please refer to the Jupyter Notebook for a detailed analysis, visualizations, and further insights. URL : https://github.com/guptapramods2006/Berkely-ML-AL
+
+This README file provides an overview of the project's objectives and the steps involved in data analysis and modeling. Each problem statement corresponds to a specific step in the project, and the README serves as a guide for understanding the project's structure and goals.
+
+For any further questions or suggestions, please feel free to reach out.
