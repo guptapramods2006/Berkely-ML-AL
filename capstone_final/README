@@ -1,0 +1,126 @@
+**** Project Title : Vehicle Safety Analysis with ADAS ********
+
+Author
+******
+Pramod Gupta
+
+Executive Summary
+*****************
+This Python script conducts an in-depth analysis of vehicle safety, focusing on the impact of Advanced Driver Assistance Systems (ADAS). The study includes exploratory data analysis (EDA), visualization of key metrics, and the development of a predictive model using a Random Forest Classifier.
+
+Rationale
+************
+Understanding the factors influencing vehicle safety, especially in the context of ADAS, is crucial for enhancing road safety and optimizing autonomous driving systems.
+
+Research Question
+*****************
+How does the presence of ADAS affect vehicle safety, and what insights can be gained from the analysis of various contributing factors?
+
+Data Sources
+*************
+The script utilizes data from multiple CSV files, including incident data, traffic data, ADAS data, and sensor data. These datasets collectively provide information on incidents, traffic conditions, ADAS activation, and sensor readings.
+
+
+Prerequisites
+=============
+Ensure you have the necessary Python libraries installed. You can install them using the following command:
+
+bash
+pip install pandas matplotlib seaborn scikit-learn
+
+Usage
+=====
+Data Loading:
+Update the file paths within the script to reflect the location of your CSV files for incident data, traffic data, ADAS data, and sensor data.
+
+Run the Script:
+Execute the script using a Python interpreter:
+python vehicle_safety_analysis.py
+
+The script will load the data, clean column names, merge datasets, and conduct various analyses.
+
+
+Methodology
+************
+The analysis involves cleaning and merging datasets, exploring the impact of ADAS on accident rates, traffic speeds, road conditions, weather conditions, and more. Additionally, a Random Forest Classifier is employed to predict accident occurrence based on selected ADAS features.
+
+
+Modeling
+=========
+
+Model Building:
+The script builds a Random Forest Classifier model to predict accident occurrence based on selected ADAS features.
+
+Model Evaluation:
+Model accuracy is calculated and displayed, along with a classification report and confusion matrix.
+
+Binary Target Variable:
+The script creates a binary target variable indicating whether an accident occurred or not.
+
+
+
+Results
+*******
+The script generates visualizations and key metrics related to vehicle safety and the impact of ADAS. Results include heatmaps, bar plots, correlation coefficients, and model evaluation metrics.
+
+Visualizations
+=============
+
+Lane Closure and Incident Severity:
+The script generates heatmaps illustrating the correlation between lane closure and incident severity for vehicles with and without ADAS.
+
+Road Conditions and Accident Rate:
+Bar plots are created to compare the accident rates based on different road conditions for vehicles with and without ADAS.
+
+Weather Conditions and Accident Rate:
+Bar plots demonstrate the relationship between weather conditions and accident rates for vehicles with and without ADAS.
+
+Correlation between Sensors and Traffic Speed:
+A heatmap shows the correlation coefficients between various sensors and traffic speed.
+
+Traffic Density and Accident Rate:
+Boxplots illustrate the relationship between ADAS activation, traffic density, and accident rates.
+
+Distribution of Incident Severity by ADAS Activation:
+A count plot displays the distribution of incident severity for vehicles with and without ADAS.
+
+ADAS Impact Analysis
+====================
+
+Accident Rates:
+The script calculates and compares accident rates for vehicles with and without ADAS.
+
+Traffic Speed:
+Average traffic speeds are compared for vehicles with and without ADAS.
+
+Road Conditions:
+The script analyzes and prints road conditions for vehicles with and without ADAS.
+
+Lane Closure and Incident Severity:
+The impact of ADAS on incident severity during lane closures is explored.
+
+Weather Conditions and Accident Rates:
+Bar plots illustrate how weather conditions correlate with accident rates for vehicles with and without ADAS.
+
+
+Next Steps
+*********
+ Feature Engineering:
+ -------------------
+ Explore additional features or engineering opportunities to enhance the predictive model.
+
+ Fine-Tuning the Model:
+ ---------------------
+ Experiment with hyperparameter tuning to optimize the performance of the Random Forest Classifier.
+
+ Real-Time Integration:
+ ---------------------
+ Consider integrating real-time data for dynamic and evolving insights into vehicle safety.
+
+Outline of Project
+******************
+https://github.com/guptapramods2006/Berkely-ML-AL/tree/main/capstone_final
+
+Contact and Further Information
+******************************
+For inquiries or additional information, please contact guptapramods@gmail.com. Feel free to explore the detailed README file for this project here.
