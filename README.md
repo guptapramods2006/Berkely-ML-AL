@@ -1,5 +1,6 @@
 
 Readme: Will a Customer Accept the Coupon?
+Readme: Will a Customer Accept the Coupon?
 
 This repository contains the code and analysis for determining whether a customer will accept a coupon based on various factors. The investigation is performed on a dataset from the UCI Machine Learning repository, including information about driving scenarios, customer attributes, contextual attributes, and coupon attributes.
 
